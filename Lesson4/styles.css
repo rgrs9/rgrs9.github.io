@@ -1,0 +1,250 @@
+.container {
+    display: flex;
+    background-color: grey;
+}
+/* 
+2n on paaris
+2n + 1 on paaritu
+    1 - 2
+    2 - 4   
+    3 - 6
+    4 - 8
+    5 - 10
+    6 - 12
+    7 - 14
+ */
+.container > div, .custom {
+    background-color: brown;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.contwrap {
+    flex-wrap: wrap;
+}
+
+.contdir {
+    flex-direction: column;
+}
+
+.contdir3 {
+    flex-direction: row-reverse;
+}
+
+.contjust {
+    justify-content: center;
+}
+
+.contjust2 {
+    justify-content: space-around;
+}
+
+.contjust3 {
+    justify-content: space-between;
+}
+
+.contjust4 {
+    justify-content: space-evenly;
+}
+
+.contjust5 { 
+    justify-content: start;
+}
+
+.contjust6 { 
+    justify-content: end;
+}
+
+.contcent1 {
+    height: 200px;
+    align-items: center;
+}
+
+.contcent2 {
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contcent3 {
+    height: 200px;
+    align-items: start;
+}
+
+.contcent4 {
+    height: 200px;
+    align-items: end;
+}
+
+@media screen and (max-width: 300px) {
+    .contorder > div:nth-child(1){
+        order: 2;
+    }
+    
+    .contorder > div:nth-child(2){
+        order: 1;
+    }
+    
+    .contorder > div:nth-child(3){
+        order: 5;
+    }
+    
+    .contorder > div:nth-child(4){
+        order: 4;
+    }
+    
+    .contorder > div:nth-child(5){
+        order: 3;
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 300px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display:none;
+    }
+}
+
+.contgrow > div:nth-child(1) {
+    flex-grow: 1;
+}
+.contgrow > div:nth-child(2) {
+    flex-grow: 2;
+}
+.contgrow > div:nth-child(3) {
+    flex-grow: 3;
+}
+.contgrow > div:nth-child(4) {
+    flex-grow: 4;
+}
+.contgrow > div:nth-child(5) {
+    flex-grow: 5;
+}
+
+.contbasis {
+    flex-wrap: wrap;
+}
+
+.contbasis > div:nth-child(1) {
+    flex-basis: 100px;
+}
+
+.contself {
+    height: 200px;
+}
+
+.contself > div:nth-child(5) {
+    align-self: end;
+}
+
+.contself > div:nth-child(3) {
+    align-self: start;
+}
+
+.contself > div:nth-child(1) {
+    align-self: center;
+}
+
+
+.mainCont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    background-image: url(https://starwalk.space/gallery/images/what-is-space/1140x641.jpg);
+    height: 150px;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > h2 {
+    color: rgba(240, 248, 255);
+    text-shadow: 2px 2px rgb(27, 69, 104);
+    /*
+    nimi
+    RGB
+    RGBA / A on läbipaistvust
+    HEX
+     */
+
+}
+
+.menu {
+    width: 20%;
+}
+
+.content {
+    width: 80%;
+}
+
+.footer {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display:none;
+    }
+
+
+}

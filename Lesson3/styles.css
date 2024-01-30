@@ -1,0 +1,72 @@
+/*
+Element {
+    atribuut: väärtus
+    atribuut: väärtus
+}
+*/
+
+h1 {
+    /* Koodi blokk */
+    /*
+    Mitmerealine comment
+    */ 
+    color:rgb(162, 63, 255) !important;
+}
+
+p {
+    background-color: grey;
+    color: brown;
+    width: 200px; /* laius */
+    height: 50px;
+}
+
+h1 {
+    color: black;
+}
+
+/*
+. class
+# id
+*/
+
+
+.extraSpace {
+    color: blue;
+    width: 500px;
+}
+
+#newColor {
+    color:cadetblue;
+}
+
+.extraSpace2 {
+    font-size: 25px;
+}
+
+.firstDiv {
+    height: 150px;
+    background-color: coral;
+    width: 150px;
+    padding: 1px 20px 5px 10px;
+    margin: 20px;
+    border: 1px solid;
+}
+
+.secondDiv {
+    min-width: 500px;
+    background-color: aquamarine;
+}
+
+.testZ {
+    height:50px;
+    width:50px;
+}
+
+.divPos1 {
+    position: static;
+}
+
+.banner {
+
+position: fixed;
+}
